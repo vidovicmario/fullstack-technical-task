@@ -1,0 +1,73 @@
+@import "src/scss/colors.scss";
+@import "src/scss/utils.scss";
+
+* {
+  font-family: $montserrat-family;
+}
+
+#root {
+  width: 100%;
+}
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow:  0px -1px 2px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+}
+
+.logo, .name-surname {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7px 7px 7px 7px;
+}
+
+.heading-title, .sign-out , .sign-out-link{
+    margin-left: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eaf6f6;
+}
+
+.upload-pdf-container-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.upload-pdf-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 360px;
+    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.upload-pdf-text {
+    font-size: 24px;
+}
+
+.upload-input-submit{
+    margin-top: 24px;
+    width: 200px;
+    height: 40px;
+    background-color: #264464;
+    color: white;
+    font-size: 15px;
+    box-shadow: 1px 3px 1px -2px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+}
